@@ -1,0 +1,25 @@
+/* index.css - small helpers */
+html, body, #root {
+  height: 100%;
+}
+
+.app-container {
+  min-height: calc(100vh - 56px); /* below navbar */
+  padding: 1rem;
+}
+
+.grid-cards {
+  gap: 1rem;
+}
+
+/* Small responsive tweak for card footers */
+.card-footer {
+  background: transparent;
+  border-top: none;
+}
+
+.month-input::-webkit-calendar-picker-indicator {
+  filter: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(500%)
+    hue-rotate(180deg);
+  opacity: 1;
+}

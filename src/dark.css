@@ -1,0 +1,68 @@
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+.form-control {
+  background-color: #1b1b1b;
+  border: 1px solid #444;
+  color: #fff ;
+}
+
+.form-control:focus {
+  background-color: #242424;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #1f1f1f !important;
+}
+
+.btn-primary {
+  background-color: #0d6efd !important;
+  border-color: #0a58ca !important;
+}
+
+.btn-danger {
+  background-color: #dc3545 !important;
+}
+
+.table-dark {
+  background-color: #1c1c1c;
+}
+
+.table-dark tbody tr:hover {
+  background-color: #292929;
+}
+
+label,
+.form-label {
+  color: #e6e6e6 !important;
+}
+/* Make placeholder visible */
+.form-control::placeholder {
+  color: #b5b5b5 !important;
+}
+
+/* Make card text white (Bootstrap overrides it to dark) */
+.card, 
+.card * {
+  color: #f1f1f1 !important;
+}
+
+.alert {
+  color: #fff !important;
+}
+
+.alert-primary  {
+  background-color: #b8860b !important;
+  border: none !important;
+}
+
+
