@@ -15,7 +15,6 @@ This is the frontend UI for the Budget-Aware Expense Tracker. Users can manage c
 - Axios  
 - React Router  
 - Bootstrap  
-- Recharts (optional)
 
 
 🔐 **Environment Variables**  
